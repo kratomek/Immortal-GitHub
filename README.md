@@ -62,13 +62,9 @@ Or, from the same folder: `npm start` (runs `py server.py`).
 Open your browser at http://localhost:5500 to start playing or developing.
 
 ## Screenshots
-<table>
-<tr>
-  <td><img src="doc/screenshot1.png"/></td>
-  <td><img src="doc/screenshot2.png"/></td>
-  <td><img src="doc/screenshot3.png"/></td>
-</tr>
-</table>
+<img src="doc/screenshot1.png" width="400"/>
+<img src="doc/screenshot2.png" width="400"/>
+<img src="doc/screenshot3.png" width="400"/>
 
 ## [CREDITS](doc/CREDITS.md)
 For all authors, libraries, and assets used in the project.
