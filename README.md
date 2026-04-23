@@ -73,7 +73,7 @@ Open your browser at http://localhost:5500 to start playing or developing.
 ## [CREDITS](doc/CREDITS.md)
 For all authors, libraries, and assets used in the project.
 
-<img src="src/img/player/PlayerPreview.gif" width="500" style="display:inline-block"/>
+<img src="doc/PlayerPreview.gif" width="500" style="display:inline-block"/>
 
 ## 📚 More Information
 - [Controls](doc/CONTROLS.md)
