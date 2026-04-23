@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Controls - Immortal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Verdana', sans-serif;
+            color: #2c3e50;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 0.5em;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-top: 1.5em;
+        }
+
+        h3 {
+            font-size: 1.4em;
+            margin-top: 1em;
+        }
+
+        img {
+            display: inline-block;
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            vertical-align: middle;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul,
+        ol {
+            margin-left: 20px;
+            margin-bottom: 1em;
+        }
+
+        pre,
+        code {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #eee;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        blockquote {
+            border-left: 4px solid #ccc;
+            padding-left: 10px;
+            color: #555;
+            margin: 10px 0;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+
+        #readme {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #ccc;
+            margin: 2em 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="readme"></div>
+    <script>
+        const markdown = `
+
+![Immortal](Immortal-title.png)
+
+# Controls
+
+This document lists all input controls for **Immortal**, including keyboard, mouse, gamepad, and touch.
+
+## ⚔️ Combat & Abilities
+| Key | Action |
+|:--:|:--|
+| LMB / ⏎             | Attack / Click                |
+| Q                   | 1st Ability                   |
+| W                   | 2nd Ability                   |
+| E                   | 3rd Ability                   |
+| R                   | 4th Ability                   |
+| D                   | 1st Summon Spell              |
+| F                   | 2nd Summon Spell              |
+| A                   | Attack Range Toggle           |
+---
+
+## 🧭 Movement & Camera
+| Key | Action |
+|:--:|:--|
+| RMB / Arrows        | Player movement               |
+| S                   | Stop Movement                 |
+| Z                   | Switch Camera                 |
+| SPACE               | Center Camera (Champion)      |
+| Y                   | Center Camera (Nexus 1)       |
+| X                   | Center Camera (Nexus 2)       |
+| C                   | Focus Enemy                   |
+---
+
+## 📡 Communication & Ping
+| Key | Action |
+|:--:|:--|
+| G / MMB             | Ping                          |
+| CAPSLOCK            | Ping Menu                     |
+---
+
+## 🕹️ Game Controls
+| Key | Action |
+|:--:|:--|
+| V                   | Change Game Mode              |
+| B                   | Recall                        |
+| SHIFT               | Mute / Unmute                 |
+| 1                   | HUD / Inventory               |
+| 2                   | Minimap                       |
+| 3                   | Change Skin                   |
+| 5                   | Touch Control                 |
+| CTRL                | Crouch                        |
+---
+
+## ⚙️ System & UI
+| Key | Action |
+|:--:|:--|
+| ;                   | Pause                         |
+| ALT                 | Restart Game                  |
+| TAB                 | Settings                      |
+| \                   | Stats                         |
+| 4                   | Key Binding                   |
+| 6                   | Sing Up                       |
+| NUM7                | Fullscreen                    |
+---
+
+## 🎮 Gamepad Controls
+**Gamepad guide: [AntiMicroX](AntiMicroX.md)**
+
+| Button              | Action / Description          |
+|:-------------------:|:------------------------------|
+| A                   | Attack / Click                |
+| B                   | Recall                        |
+| X                   | Mute / Unmute                 |
+| Y                   | Restart Game                  |
+| RT                  | Attack / Click                |
+| RB                  | Attack Range                  |
+| LT                  | Move Player                   |
+| LB                  | Stop Movement                 |
+| Start               | Pause                         |
+| Back                | Settings                      |
+| L Stick             | Player Movement               |
+| L Stick Click       | Crouch                        |
+| R Stick             | Cursor Movement               |
+| R Stick Click       | Ping                          |
+| D-Pad               | Camera                        |
+---
+
+#### The game supports control via Keyboard, Mouse, Gamepad, Touch Screen, Numpad
+
+![Design](title1.png)
+
+
+
+    `;
+        const html = marked.parse(markdown);
+        document.getElementById('readme').innerHTML = html;
+    </script>
+</body>
+
+</html>
