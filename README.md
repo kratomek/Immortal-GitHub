@@ -12,37 +12,19 @@
 **Immortal** is a 2D remake of [League of Legends](https://www.leagueoflegends.com/). It runs directly in the browser, without installation, and is fully playable on PC, tablets and mobile phones.
 
 ## Key Features & Technologies
-- 🌐 **Purely web game** - no installation
+- 🕹️ Instant Play – Full MOBA experience directly in your browser with zero installation.
 
-- 🧠 **Advanced web technologies** – built on modern web capabilities with support for complex systems, background processing, and scalable game logic.
+- 👁️ Advanced Fog of War – Real-time ray casting and line-of-sight system for tactical gameplay.
 
-- 📱 **Responsive design** – works on different devices
+- 🧱 Precision Engine – Custom collision map system and intelligent entity hiding (HP bars, units) behind obstacles.
 
-- 🧱 **Collision map system** – precise movement and collisions
+- ⚡ High Performance – Optimized for maximum FPS with DOM caching and throttled logic updates.
 
-- �️ **Fog of War** – advanced line of sight system with ray casting and entity visibility caching
+- 🎮 Pro Controller Support – Full gamepad integration (optimized for AntiMicroX) for a console-like feel.
 
-- 🎯 **Entity visibility** – intelligent hiding of HP bars and entities behind walls
+- 📱 Cross-Platform – Fully responsive design tailored for both desktop and mobile devices.
 
-- �💾 **LocalStorage & IndexedDB** – saving player progress with efficient data persistence
-
-- 🎮 **Gamepad support** – full controller support with AntiMicroX integration
-
-- 🌍 **Multi-language** – English, Czech, and Chinese localization support
-
-- 💬 **Chat system** – in-game communication with auto-close functionality
-
-- 🧩 **Modular architecture** – easy expansion with clean separation of concerns
-
-- ⚡ **Highly optimized** – throttled updates, DOM caching, and performance profiling for maximum FPS
-
-- 🎮 **Web MOBA gameplay** – MOBA mechanics adapted for a lightweight 2D format.
-
-- 🚀 **Instant play** – start playing immediately without installing anything.
-
-- 🧑‍💻 **Developer-friendly** – built-in debug tools with collision map visualization, fog of war debug polygon, and performance monitoring.
-
-- 👥 **Community-driven** – open to fans and contributors.
+- 🧑‍💻 Dev-Ready – Built-in debug suite for real-time visualization of collisions, Fog of War, and performance.
 
 ##  Getting Started
 You can start the game **directly in your browser** by opening `index.html`.
@@ -69,7 +51,7 @@ Open your browser at http://localhost:5500 to start playing or developing.
 ## [CREDITS](doc/CREDITS.md)
 For all authors, libraries, and assets used in the project.
 
-<img src="doc/PlayerPreview.gif" width="500" style="display:inline-block"/>
+<img src="src/img/player//PlayerPreview.gif" width="500" style="display:inline-block"/>
 
 ## 📚 More Information
 - [Controls](doc/CONTROLS.md)
@@ -92,3 +74,4 @@ These assets are not part of the project ownership and must be replaced with ori
 If requested by Riot Games, the project will be modified or removed to fully respect their intellectual property rights.
 
 ![Design](doc/title2.png)
+
